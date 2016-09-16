@@ -17,6 +17,11 @@
 		323A78AD1D8B792100E15FF5 /* EvidenceGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78AC1D8B792100E15FF5 /* EvidenceGalleryViewController.swift */; };
 		323A78B01D8B7A8100E15FF5 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78AF1D8B7A8100E15FF5 /* UserInfoViewController.swift */; };
 		323A78B21D8B7BB800E15FF5 /* DareDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78B11D8B7BB800E15FF5 /* DareDetailsViewController.swift */; };
+		4DEEF9101D8C6EBC0015E908 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF90F1D8C6EBC0015E908 /* 1.jpg */; };
+		4DEEF9151D8C72E80015E908 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9111D8C72E80015E908 /* 2.jpg */; };
+		4DEEF9161D8C72E80015E908 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9121D8C72E80015E908 /* 3.jpg */; };
+		4DEEF9171D8C72E80015E908 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9131D8C72E80015E908 /* 4.jpg */; };
+		4DEEF9181D8C72E80015E908 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9141D8C72E80015E908 /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		323A78AC1D8B792100E15FF5 /* EvidenceGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvidenceGalleryViewController.swift; sourceTree = "<group>"; };
 		323A78AF1D8B7A8100E15FF5 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		323A78B11D8B7BB800E15FF5 /* DareDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DareDetailsViewController.swift; sourceTree = "<group>"; };
+		4DEEF90F1D8C6EBC0015E908 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = Assets.xcassets/1.jpg; sourceTree = "<group>"; };
+		4DEEF9111D8C72E80015E908 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = Assets.xcassets/2.jpg; sourceTree = "<group>"; };
+		4DEEF9121D8C72E80015E908 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = Assets.xcassets/3.jpg; sourceTree = "<group>"; };
+		4DEEF9131D8C72E80015E908 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Assets.xcassets/4.jpg; sourceTree = "<group>"; };
+		4DEEF9141D8C72E80015E908 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = Assets.xcassets/5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,11 @@
 				323A78AE1D8B795900E15FF5 /* Controllers */,
 				323A78821D8B73B800E15FF5 /* Main.storyboard */,
 				323A78851D8B73B800E15FF5 /* Assets.xcassets */,
+				4DEEF9111D8C72E80015E908 /* 2.jpg */,
+				4DEEF9121D8C72E80015E908 /* 3.jpg */,
+				4DEEF9131D8C72E80015E908 /* 4.jpg */,
+				4DEEF9141D8C72E80015E908 /* 5.jpg */,
+				4DEEF90F1D8C6EBC0015E908 /* 1.jpg */,
 				323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */,
 				323A788A1D8B73B800E15FF5 /* Info.plist */,
 			);
@@ -210,7 +225,7 @@
 				TargetAttributes = {
 					323A787A1D8B73B700E15FF5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 7DWC258SX7;
+						DevelopmentTeam = 77BBD53GGK;
 					};
 					323A788E1D8B73B800E15FF5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -248,6 +263,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				323A78891D8B73B800E15FF5 /* LaunchScreen.storyboard in Resources */,
+				4DEEF9181D8C72E80015E908 /* 5.jpg in Resources */,
+				4DEEF9171D8C72E80015E908 /* 4.jpg in Resources */,
+				4DEEF9101D8C6EBC0015E908 /* 1.jpg in Resources */,
+				4DEEF9151D8C72E80015E908 /* 2.jpg in Resources */,
+				4DEEF9161D8C72E80015E908 /* 3.jpg in Resources */,
 				323A78861D8B73B800E15FF5 /* Assets.xcassets in Resources */,
 				323A78841D8B73B800E15FF5 /* Main.storyboard in Resources */,
 			);
@@ -426,7 +446,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DareDevil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevil;
+				PRODUCT_BUNDLE_IDENTIFIER = DareDevil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -440,7 +460,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DareDevil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevil;
+				PRODUCT_BUNDLE_IDENTIFIER = DareDevil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -511,6 +531,7 @@
 				323A78A51D8B73B800E15FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		323A78A61D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +540,7 @@
 				323A78A81D8B73B800E15FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		323A78A91D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +549,7 @@
 				323A78AB1D8B73B800E15FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
