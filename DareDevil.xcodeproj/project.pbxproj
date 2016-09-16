@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323A787F1D8B73B800E15FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A787E1D8B73B800E15FF5 /* AppDelegate.swift */; };
+		323A78811D8B73B800E15FF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78801D8B73B800E15FF5 /* ViewController.swift */; };
+		323A78841D8B73B800E15FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A78821D8B73B800E15FF5 /* Main.storyboard */; };
+		323A78861D8B73B800E15FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323A78851D8B73B800E15FF5 /* Assets.xcassets */; };
+		323A78891D8B73B800E15FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */; };
+		323A78941D8B73B800E15FF5 /* DareDevilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78931D8B73B800E15FF5 /* DareDevilTests.swift */; };
+		323A789F1D8B73B800E15FF5 /* DareDevilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A789E1D8B73B800E15FF5 /* DareDevilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323A78901D8B73B800E15FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323A78731D8B73B700E15FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323A787A1D8B73B700E15FF5;
+			remoteInfo = DareDevil;
+		};
+		323A789B1D8B73B800E15FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323A78731D8B73B700E15FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323A787A1D8B73B700E15FF5;
+			remoteInfo = DareDevil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		323A787B1D8B73B800E15FF5 /* DareDevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DareDevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A787E1D8B73B800E15FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323A78801D8B73B800E15FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		323A78831D8B73B800E15FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323A78851D8B73B800E15FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323A78881D8B73B800E15FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323A788A1D8B73B800E15FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A788F1D8B73B800E15FF5 /* DareDevilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DareDevilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A78931D8B73B800E15FF5 /* DareDevilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DareDevilTests.swift; sourceTree = "<group>"; };
+		323A78951D8B73B800E15FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A789A1D8B73B800E15FF5 /* DareDevilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DareDevilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A789E1D8B73B800E15FF5 /* DareDevilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DareDevilUITests.swift; sourceTree = "<group>"; };
+		323A78A01D8B73B800E15FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323A78781D8B73B700E15FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A788C1D8B73B800E15FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A78971D8B73B800E15FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323A78721D8B73B700E15FF5 = {
+			isa = PBXGroup;
+			children = (
+				323A787D1D8B73B800E15FF5 /* DareDevil */,
+				323A78921D8B73B800E15FF5 /* DareDevilTests */,
+				323A789D1D8B73B800E15FF5 /* DareDevilUITests */,
+				323A787C1D8B73B800E15FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323A787C1D8B73B800E15FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323A787B1D8B73B800E15FF5 /* DareDevil.app */,
+				323A788F1D8B73B800E15FF5 /* DareDevilTests.xctest */,
+				323A789A1D8B73B800E15FF5 /* DareDevilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323A787D1D8B73B800E15FF5 /* DareDevil */ = {
+			isa = PBXGroup;
+			children = (
+				323A787E1D8B73B800E15FF5 /* AppDelegate.swift */,
+				323A78801D8B73B800E15FF5 /* ViewController.swift */,
+				323A78821D8B73B800E15FF5 /* Main.storyboard */,
+				323A78851D8B73B800E15FF5 /* Assets.xcassets */,
+				323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */,
+				323A788A1D8B73B800E15FF5 /* Info.plist */,
+			);
+			path = DareDevil;
+			sourceTree = "<group>";
+		};
+		323A78921D8B73B800E15FF5 /* DareDevilTests */ = {
+			isa = PBXGroup;
+			children = (
+				323A78931D8B73B800E15FF5 /* DareDevilTests.swift */,
+				323A78951D8B73B800E15FF5 /* Info.plist */,
+			);
+			path = DareDevilTests;
+			sourceTree = "<group>";
+		};
+		323A789D1D8B73B800E15FF5 /* DareDevilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				323A789E1D8B73B800E15FF5 /* DareDevilUITests.swift */,
+				323A78A01D8B73B800E15FF5 /* Info.plist */,
+			);
+			path = DareDevilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323A787A1D8B73B700E15FF5 /* DareDevil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A78A31D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevil" */;
+			buildPhases = (
+				323A78771D8B73B700E15FF5 /* Sources */,
+				323A78781D8B73B700E15FF5 /* Frameworks */,
+				323A78791D8B73B700E15FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DareDevil;
+			productName = DareDevil;
+			productReference = 323A787B1D8B73B800E15FF5 /* DareDevil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		323A788E1D8B73B800E15FF5 /* DareDevilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A78A61D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilTests" */;
+			buildPhases = (
+				323A788B1D8B73B800E15FF5 /* Sources */,
+				323A788C1D8B73B800E15FF5 /* Frameworks */,
+				323A788D1D8B73B800E15FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323A78911D8B73B800E15FF5 /* PBXTargetDependency */,
+			);
+			name = DareDevilTests;
+			productName = DareDevilTests;
+			productReference = 323A788F1D8B73B800E15FF5 /* DareDevilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		323A78991D8B73B800E15FF5 /* DareDevilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A78A91D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilUITests" */;
+			buildPhases = (
+				323A78961D8B73B800E15FF5 /* Sources */,
+				323A78971D8B73B800E15FF5 /* Frameworks */,
+				323A78981D8B73B800E15FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323A789C1D8B73B800E15FF5 /* PBXTargetDependency */,
+			);
+			name = DareDevilUITests;
+			productName = DareDevilUITests;
+			productReference = 323A789A1D8B73B800E15FF5 /* DareDevilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323A78731D8B73B700E15FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bruce;
+				TargetAttributes = {
+					323A787A1D8B73B700E15FF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					323A788E1D8B73B800E15FF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 323A787A1D8B73B700E15FF5;
+					};
+					323A78991D8B73B800E15FF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 323A787A1D8B73B700E15FF5;
+					};
+				};
+			};
+			buildConfigurationList = 323A78761D8B73B700E15FF5 /* Build configuration list for PBXProject "DareDevil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323A78721D8B73B700E15FF5;
+			productRefGroup = 323A787C1D8B73B800E15FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323A787A1D8B73B700E15FF5 /* DareDevil */,
+				323A788E1D8B73B800E15FF5 /* DareDevilTests */,
+				323A78991D8B73B800E15FF5 /* DareDevilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323A78791D8B73B700E15FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A78891D8B73B800E15FF5 /* LaunchScreen.storyboard in Resources */,
+				323A78861D8B73B800E15FF5 /* Assets.xcassets in Resources */,
+				323A78841D8B73B800E15FF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A788D1D8B73B800E15FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A78981D8B73B800E15FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323A78771D8B73B700E15FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A78811D8B73B800E15FF5 /* ViewController.swift in Sources */,
+				323A787F1D8B73B800E15FF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A788B1D8B73B800E15FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A78941D8B73B800E15FF5 /* DareDevilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A78961D8B73B800E15FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A789F1D8B73B800E15FF5 /* DareDevilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323A78911D8B73B800E15FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323A787A1D8B73B700E15FF5 /* DareDevil */;
+			targetProxy = 323A78901D8B73B800E15FF5 /* PBXContainerItemProxy */;
+		};
+		323A789C1D8B73B800E15FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323A787A1D8B73B700E15FF5 /* DareDevil */;
+			targetProxy = 323A789B1D8B73B800E15FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		323A78821D8B73B800E15FF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323A78831D8B73B800E15FF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323A78881D8B73B800E15FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323A78A11D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		323A78A21D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323A78A41D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DareDevil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		323A78A51D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DareDevil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		323A78A71D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DareDevilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DareDevil.app/DareDevil";
+			};
+			name = Debug;
+		};
+		323A78A81D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DareDevilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DareDevil.app/DareDevil";
+			};
+			name = Release;
+		};
+		323A78AA1D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DareDevilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DareDevil;
+			};
+			name = Debug;
+		};
+		323A78AB1D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DareDevilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DareDevil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323A78761D8B73B700E15FF5 /* Build configuration list for PBXProject "DareDevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78A11D8B73B800E15FF5 /* Debug */,
+				323A78A21D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323A78A31D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78A41D8B73B800E15FF5 /* Debug */,
+				323A78A51D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		323A78A61D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78A71D8B73B800E15FF5 /* Debug */,
+				323A78A81D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		323A78A91D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78AA1D8B73B800E15FF5 /* Debug */,
+				323A78AB1D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323A78731D8B73B700E15FF5 /* Project object */;
+}
